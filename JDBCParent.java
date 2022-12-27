@@ -16,9 +16,9 @@ public class JDBCParent {
     @BeforeTest
     public void DBConnectionOpen()
     {
-        String url = "jdbc:mysql://db-technostudy.ckr1jisflxpv.us-east-1.rds.amazonaws.com:3306/sakila";
-        String username = "root";
-        String password = "'\"-LhCB'.%k[4S]z";
+        String url = " ";  // write your URL with table at the end here
+        String username = " "; // write the username here
+        String password = " ";  // write the password here 
 
         try{
             connection = DriverManager.getConnection(url, username, password);
