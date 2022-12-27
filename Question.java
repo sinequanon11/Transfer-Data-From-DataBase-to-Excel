@@ -13,7 +13,7 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 
-// Soru: Actor table'ındaki tüm verileri yeni excel'e yazdırınız
+// Question: How to transfer all data from actor table to excel 
 
 public class _04_Soru extends JDBCParent {
 
